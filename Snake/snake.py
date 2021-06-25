@@ -1,8 +1,6 @@
-from hashlib import algorithms_available
 import turtle
 import time
 import random
-from typing import NewType
 
 delay = 0.15
 
