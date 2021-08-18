@@ -4,3 +4,6 @@ Games made with Python to learn Python. Also included a GUI launcher to make it 
 <p align = "center">
   <img src="resources/GameLauncherScreenshot.png" width="500">
   </p>
+
+<br/>
+To find out more about the individual games, you can click into the individual folders of the game!
