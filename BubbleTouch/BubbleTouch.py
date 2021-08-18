@@ -10,7 +10,7 @@ wn.bgcolor("black")
 wn.title("Simple Python Game as Intro to Classes by Alex")
 wn.setup(width=700, height=700)
 wn.tracer(0)
-wn.bgpic("bg.gif")
+wn.bgpic("resources/bg.gif")
 
 class Game(turtle.Turtle):
 
@@ -33,7 +33,7 @@ class Game(turtle.Turtle):
 
     def play_sound(self):
         os.system("afplay bounce.wav&")
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("resources/bounce.wav", winsound.SND_ASYNC)
 
 class Border(turtle.Turtle):
     def __init__(self):

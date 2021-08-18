@@ -91,13 +91,13 @@ while True:
         ball.sety(290)
         ball.dy *= -1   #Reverses the direction
         os.system("afplay bounce.wav&")
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("resources/bounce.wav", winsound.SND_ASYNC)
 
     if ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1   #Reverses the direction
         os.system("afplay bounce.wav&")
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("resources/bounce.wav", winsound.SND_ASYNC)
 
     #Left and right
     if ball.xcor() > 390:
@@ -119,10 +119,10 @@ while True:
         ball.setx(340)
         ball.dx *= -1   #Bouncing
         os.system("afplay bounce.wav&")
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("resources/bounce.wav", winsound.SND_ASYNC)
 
     if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() - 40):
         ball.setx(-340)
         ball.dx *= -1   #Bouncing
         os.system("afplay bounce.wav&")
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("resources/bounce.wav", winsound.SND_ASYNC)
